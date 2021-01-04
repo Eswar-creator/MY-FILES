@@ -1,0 +1,91 @@
+body {
+    background-color: ghostwhite;
+    margin: 20px;
+    border: 1px solid blue;
+    outline-style: dashed;
+    outline-color: darkgoldenrod;
+    outline-offset: 15px;
+    
+  }
+
+.hero-image {
+    background: url(https://www.wallpaperup.com/uploads/wallpapers/2013/01/07/28235/fbd4dabde23a3306f36160ee95ff09e8-700.jpg) no-repeat center; 
+    background-size: cover;
+    height: 500px;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: top left;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  h1,h2 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    margin-left: 20px;
+  }
+  h2{
+    text-shadow: 2px 2px 5p darkorange;
+  }
+ h3 {
+    text-decoration: underline;
+    color: darkkhaki;
+    font-size: 30px;
+ }
+ p{
+     margin-left: 30px;
+ }
+ 
+.img1 {
+    float: right;
+    outline-style: dashed;
+    color: lawngreen;
+  }
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 280px;
+  }
+  
+  div.gallery:hover {
+    border: 5px solid black;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: darkorange;
+  }
+  div.pep{
+      padding: 19px;
+      text-align: left;
+      border: 3px solid burlywood;
+  }
+  
+.img2 {
+    float: right;
+  }
+  
+.clearfix {
+    overflow: auto;
+  }
+  .footer {
+  
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightsteelblue;
+    color: red;
+    text-align: center;
+  }
